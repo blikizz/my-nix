@@ -10,6 +10,7 @@
   services.blueman.enable = true;
   # services.xserver.libinput.enable = true;
   # services.flatpak.enable = true;
+  programs.nix-ld.enable = true;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
