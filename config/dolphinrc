@@ -1,0 +1,15 @@
+[General]
+Version=202
+ViewPropsTimestamp=2026,3,10,13,56,18.656
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[UiSettings]
+ColorScheme=BreezeDark
+[Icons]
+Theme=candy-icons
