@@ -13,6 +13,7 @@
   programs.waybar.enable = true;
   services.dunst.enable = true;
   systemd.user.services.hyprpolkitagent.enable = true;
+  security.polkit.enable = true;
 
   xdg.portal = {
    enable = true;
@@ -31,8 +32,6 @@
   environment.systemPackages = with pkgs; [
     rofi
     nwg-look
-    libsForQt5.qt5ct
-    kdePackages.qt6ct
     libsForQt5.qtstyleplugin-kvantum
     cliphist
     wl-clipboard
