@@ -3,9 +3,9 @@
 {
   imports =
     [
-        ./desktop/kde.nix
+        # ./desktop/kde.nix
         # ./desktop/oxwm.nix
-        # ./desktop/hyprland.nix
+         ./desktop/hyprland.nix
     ];
 
 }

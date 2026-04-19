@@ -9,25 +9,10 @@
     withUWSM = true;        # Use Universal Wayland Session Manager
   };
 
-  systemd.user.services.swww = {
-   Unit = {
-     Description = "swww daemon for Wayland wallpaper";
-     After = [ "graphical-session.target" ];
-     Wants = [ "graphical-session.target" ];
-     PartOf = [ "graphical-session.target" ];
-  };
-   Service = {
-     Type = "simple";
-     ExecStart = "${pkgs.swww}/bin/swww-daemon";
-     Restart = "always";
-     Environment = [ "WAYLAND_DISPLAY" ];
-   };
-   Install.WantedBy = [ "graphical-session.target" ];
- };
-
+  systemd.user.services.awww.enable = true;
   programs.waybar.enable = true;
   services.dunst.enable = true;
-  services.hyprpolkitagent.enable = true;
+  systemd.user.services.hyprpolkitagent.enable = true;
 
   xdg.portal = {
    enable = true;
@@ -46,17 +31,18 @@
   environment.systemPackages = with pkgs; [
     rofi
     nwg-look
-    qt5ct
-    qt6ct
-    kvantum
+    libsForQt5.qt5ct
+    kdePackages.qt6ct
+    libsForQt5.qtstyleplugin-kvantum
     cliphist
     wl-clipboard
-    swww
+    hyprpolkitagent
+    awww
     hyprlock
     grim
     slurp
-    qt5-wayland
-    qt6-wayland
+    libsForQt5.qt5.qtwayland
+    qt6.qtwayland
     brightnessctl
     nwg-displays
   ];
