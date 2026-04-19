@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/run/current-system/sw/bin/bash
 
 action=$(echo -e "  Audio Output (Sinks)\n  Audio Input (Sources)" | rofi -dmenu -i -p "Configure:" -theme ~/.config/rofi/audio.rasi)
 

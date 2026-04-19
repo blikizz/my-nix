@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/run/current-system/sw/bin/bash
 
 lock=" Lock"
 reboot=" Reboot"
