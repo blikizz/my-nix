@@ -19,9 +19,6 @@
  xwallpaper
  qt5ct
  qt6ct
- candy-icons
- sweet-folders
- sweet
  brightnessctl
  kvantum
  lxappearance

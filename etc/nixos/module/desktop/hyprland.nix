@@ -59,8 +59,5 @@
     qt6-wayland
     brightnessctl
     nwg-displays
-    candy-icons
-    sweet-folders
-    sweet
   ];
 }

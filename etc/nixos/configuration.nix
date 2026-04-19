@@ -6,7 +6,7 @@
       ./hardware-configuration.nix
       ./app.nix
       ./module.nix
-      ./fonts.nix
+      ./theme.nix
     ];
   
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
