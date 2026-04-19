@@ -11,5 +11,15 @@
     kdePackages.kompare
     kdePackages.filelight
     kdePackages.kate
+    kdePackages.kservice
+    kdePackages.qtsvg
+    kdePackages.kio
+    kdePackages.kio-fuse
+    kdePackages.kio-extras
+  ];
+  nixpkgs.overlays = [
+    (import /dolphin-menu.nix)
   ];
 }
+
+
