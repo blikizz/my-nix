@@ -6,7 +6,7 @@
  services.xserver.enable = true;
  qt.enable = true;
  security.polkit.enable = true;
-systemd.user.services.polkit_gnome.enable = true;
+ systemd.user.services.polkit_gnome.enable = true;
  services.xserver.windowManager.oxwm.enable = true;
  xdg.portal = {
     enable = true;
