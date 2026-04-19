@@ -32,7 +32,8 @@
   environment.systemPackages = with pkgs; [
     rofi
     nwg-look
-    libsForQt5.qtstyleplugin-kvantum
+    libsForQt5.qt5ct
+    kdePackages.qt6ct
     cliphist
     wl-clipboard
     hyprpolkitagent

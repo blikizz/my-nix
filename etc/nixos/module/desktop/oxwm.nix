@@ -17,8 +17,8 @@
  [
  rofi
  xwallpaper
- qt5ct
- qt6ct
+ libsForQt5.qt5ct
+ kdePackages.qt6ct
  brightnessctl
  kvantum
  lxappearance
