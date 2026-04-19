@@ -1,0 +1,17 @@
+configuration {
+    modi: "drun,run,filebrowser";
+    show-icons: true;
+    font: "Mono 15";
+}
+
+window {
+    width: 800px;
+    border-radius: 20px;
+}
+
+listview {
+    columns: 2;
+    lines: 10;
+    spacing: 5px;
+}
+
