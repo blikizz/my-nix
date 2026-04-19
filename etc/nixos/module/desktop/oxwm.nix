@@ -5,6 +5,7 @@
  services.displayManager.ly.enable = true;
  services.xserver.enable = true;
  qt.enable = true;
+ security.polkit.enable = true;
  services.xserver.windowManager.oxwm.enable = true;
  xdg.portal = {
     enable = true;
