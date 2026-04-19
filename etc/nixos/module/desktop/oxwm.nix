@@ -6,6 +6,7 @@
  services.xserver.enable = true;
  qt.enable = true;
  security.polkit.enable = true;
+systemd.user.services.polkit_gnome.enable = true;
  services.xserver.windowManager.oxwm.enable = true;
  xdg.portal = {
     enable = true;
@@ -21,7 +22,7 @@
  libsForQt5.qt5ct
  kdePackages.qt6ct
  brightnessctl
- kvantum
+ polkit_gnome
  lxappearance
  network-manager-applet
  (pkgs.xdg-desktop-portal-gtk.overrideAttrs (prevAttrs: {
