@@ -6,5 +6,7 @@
     brave
     cantata
     vlc
+    nemo
+    bottles
   ];
 }

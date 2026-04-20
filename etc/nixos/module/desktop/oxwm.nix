@@ -24,7 +24,6 @@
  brightnessctl
  polkit_gnome
  lxappearance
- network-manager-applet
  (pkgs.xdg-desktop-portal-gtk.overrideAttrs (prevAttrs: {
       buildInputs = builtins.filter (x: x != prevAttrs.gnome-desktop && x != prevAttrs.gnome-settings-daemon) prevAttrs.buildInputs;
       mesonFlags = [ "-Dwallpaper=disabled" ];

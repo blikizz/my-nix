@@ -10,6 +10,7 @@
         ./module/nils.nix
         ./module/services.nix
         ./module/timezone.nix
+        ./module/swaps.nix
     ];
 
 }
