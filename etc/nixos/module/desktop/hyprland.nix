@@ -1,12 +1,11 @@
 { config, pkgs, ... }:
 
 {
-  services.displayManager.sddm.enable = true;
-  services.displayManager.sddm.wayland.enable = true;
+  services.displayManager.ly.enable = true;
   programs.hyprland = {
     enable = true;
-    xwayland.enable = true; # Enable X11 compatibility
-    withUWSM = true;        # Use Universal Wayland Session Manager
+    xwayland.enable = true;
+    withUWSM = true;
   };
 
   systemd.user.services.awww.enable = true;

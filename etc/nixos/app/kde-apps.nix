@@ -18,7 +18,7 @@
     kdePackages.kio-extras
   ];
   nixpkgs.overlays = [
-    (import /dolphin-menu.nix)
+    (import ./dolphin-menu.nix)
   ];
 }
 
