@@ -8,6 +8,7 @@
   services.printing.enable = true;
   services.pulseaudio.enable = false;
   services.blueman.enable = true;
+  hardware.bluetooth.enable = true;
   # services.xserver.libinput.enable = true;
   # services.flatpak.enable = true;
   programs.nix-ld.enable = true;
