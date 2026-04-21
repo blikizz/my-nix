@@ -20,6 +20,8 @@
     fastfetch
     unzip
     unrar
+    bluez
+    bluez-tools
     mesa
   ];
 }
