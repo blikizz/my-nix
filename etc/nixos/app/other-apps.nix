@@ -7,6 +7,5 @@
     cantata
     vlc
     nemo
-    bottles
   ];
 }
