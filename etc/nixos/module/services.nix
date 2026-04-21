@@ -9,6 +9,7 @@
   services.pulseaudio.enable = false;
   services.blueman.enable = true;
   hardware.bluetooth.enable = true;
+  hardware.enableAllFirmware = true;
   # services.xserver.libinput.enable = true;
   # services.flatpak.enable = true;
   programs.nix-ld.enable = true;
