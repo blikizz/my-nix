@@ -4,7 +4,7 @@
   imports =
     [
          ./desktop/lxqt.nix
-        # ./desktop/hyprland.nix
+         ./desktop/hyprland.nix
     ];
 
 }
