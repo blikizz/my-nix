@@ -33,6 +33,8 @@
     nwg-look
     libsForQt5.qt5ct
     kdePackages.qt6ct
+    kdePackages.qtstyleplugin-kvantum
+    libsForQt5.qtstyleplugin-kvantum
     cliphist
     wl-clipboard
     hyprpolkitagent
