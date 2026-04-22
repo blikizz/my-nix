@@ -5,8 +5,7 @@
   services.xserver.enable = true;
   services.xserver.desktopManager.lxqt.enable = true;
 
-  environment.lxqt.excludePackages = with pkgs; 
-  [ 
+  environment.lxqt.excludePackages; [ 
    pcmanfm-qt
    xterm
    lxqt-archiver
