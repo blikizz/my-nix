@@ -8,10 +8,31 @@
     withUWSM = true;
   };
 
-  systemd.user.services.awww.enable = true;
+  systemd.services.awww = {
+    enable = true;
+    description = "Wayland Wallpaper daemon";
+    wantedBy = ["graphical.target"];
+  serviceConfig = {
+    ExecStart = "${pkgs.swww}/bin/swww daemon";
+    Restart = "on-failure";
+    Type = "simple";
+    };
+  };
+
+  systemd.user.services.hyprpolkitagent = {
+    description = "Hyprland Polkit Agent";
+    wantedBy = [ "graphical-session.target" ];
+    wants = [ "graphical-session.target" ];
+    after = [ "graphical-session.target" ];
+  serviceConfig = {
+    Type = "simple";
+    ExecStart = "${pkgs.hyprpolkitagent}/bin/hyprpolkitagent";
+    Restart = "on-failure";
+    };
+  };
+
   programs.waybar.enable = true;
   services.dunst.enable = true;
-  systemd.user.services.hyprpolkitagent.enable = true;
   security.polkit.enable = true;
 
   xdg.portal = {
