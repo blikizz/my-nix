@@ -23,6 +23,7 @@
     bluez
     bluez-tools
     mesa
+    gcc
   ];
 }
 

@@ -8,17 +8,6 @@
     withUWSM = true;
   };
 
-  systemd.services.awww = {
-    enable = true;
-    description = "Wayland Wallpaper daemon";
-    wantedBy = ["graphical.target"];
-  serviceConfig = {
-    ExecStart = "${pkgs.swww}/bin/swww daemon";
-    Restart = "on-failure";
-    Type = "simple";
-    };
-  };
-
   systemd.user.services.hyprpolkitagent = {
     description = "Hyprland Polkit Agent";
     wantedBy = [ "graphical-session.target" ];
