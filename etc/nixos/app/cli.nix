@@ -5,6 +5,7 @@
   [
     nano
     f3
+    smartmontools
     neovim
     bluez
     wget
