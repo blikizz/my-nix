@@ -7,5 +7,6 @@
     cantata
     vlc
     nemo
+    gparted
   ];
 }
