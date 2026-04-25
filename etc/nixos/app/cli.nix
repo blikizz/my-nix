@@ -4,6 +4,7 @@
   environment.systemPackages = with pkgs;
   [
     nano
+    f3
     neovim
     bluez
     wget
