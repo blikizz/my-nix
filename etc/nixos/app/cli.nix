@@ -4,13 +4,13 @@
   environment.systemPackages = with pkgs;
   [
     nano
-    f3
-    smartmontools
     neovim
     bluez
     wget
     kitty
     fish
+    f3
+    smartmontools
     bat
     duf
     eza

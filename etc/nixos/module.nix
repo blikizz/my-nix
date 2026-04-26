@@ -11,6 +11,7 @@
         ./module/services.nix
         ./module/timezone.nix
         ./module/swaps.nix
+        ./module/os-name.nix
     ];
 
 }

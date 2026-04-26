@@ -6,7 +6,7 @@
     brave
     cantata
     vlc
-    nemo
     gparted
+    nemo
   ];
 }

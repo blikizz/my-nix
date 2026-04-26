@@ -12,4 +12,5 @@ ShowSidebar=true
 Theme=candy-icons
 
 [MainWindow]
+MenuBar=Enabled
 StatusBar=Disabled
