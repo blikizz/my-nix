@@ -8,5 +8,6 @@
     vlc
     gparted
     nemo
+    lutris
   ];
 }
