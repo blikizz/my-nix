@@ -13,7 +13,7 @@
    enable = true;
    extraPortals = with pkgs; [
      xdg-desktop-portal-hyprland
-     xdg-desktop-portal-lxqt
+     lxqt.xdg-desktop-portal-lxqt
    ];
  };
 
@@ -27,10 +27,11 @@
     cliphist
     wl-clipboard
     xdg-desktop-portal-hyprland
-    xdg-desktop-portal-lxqt
-    lxqt-policykit
-    lxqt-notificationd
+    lxqt.xdg-desktop-portal-lxqt
+    lxqt.lxqt-policykit
+    lxqt.lxqt-notificationd
     awww
+    waybar
     hyprlock
     lxqt.lximage-qt
     lxqt.screengrab

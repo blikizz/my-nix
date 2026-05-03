@@ -8,7 +8,6 @@
         ./app/other-apps.nix
         ./app/steam.nix
         ./app/qemu.nix
-        ./app/wine.nix
     ];
 
 }
