@@ -1,0 +1,16 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Files/
+
+[Extraction]
+preservePaths=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[Icons]
+Theme=candy-icons
+
+[MainWindow]
+MenuBar=Enabled
+StatusBar=Disabled
