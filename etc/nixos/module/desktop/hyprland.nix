@@ -20,22 +20,14 @@
     };
   };
 
-  programs.waybar.enable = true;
-  services.dunst.enable = true;
   security.polkit.enable = true;
 
   xdg.portal = {
    enable = true;
    extraPortals = with pkgs; [
      xdg-desktop-portal-hyprland
-     xdg-desktop-portal-gtk
+     xdg-desktop-portal-lxqt
    ];
-   config = {
-     hyprland = {
-       default = [ "hyprland" "gtk" ];
-       "org.freedesktop.impl.portal.Secret" = [ "gnome-keyring" ];
-     };
-   };
  };
 
   environment.systemPackages = with pkgs; [
@@ -47,11 +39,14 @@
     libsForQt5.qtstyleplugin-kvantum
     cliphist
     wl-clipboard
-    hyprpolkitagent
+    xdg-desktop-portal-hyprland
+    xdg-desktop-portal-lxqt
+    lxqt-policykit
+    lxqt-notificationd
     awww
     hyprlock
-    grim
-    slurp
+    lxqt.lximage-qt
+    lxqt.screengrab
     libsForQt5.qt5.qtwayland
     qt6.qtwayland
     brightnessctl
