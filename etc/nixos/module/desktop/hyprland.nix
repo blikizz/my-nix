@@ -26,8 +26,6 @@
     libsForQt5.qtstyleplugin-kvantum
     cliphist
     wl-clipboard
-    xdg-desktop-portal-hyprland
-    lxqt.xdg-desktop-portal-lxqt
     lxqt.lxqt-policykit
     lxqt.lxqt-notificationd
     awww
