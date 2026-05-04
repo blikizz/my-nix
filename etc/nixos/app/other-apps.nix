@@ -7,7 +7,7 @@
     cantata
     celluloid
     gparted
-    nemo
+    lxqt.pcmanfm-qt
     lutris
   ];
 }
