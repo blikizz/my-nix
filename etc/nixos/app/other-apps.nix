@@ -5,7 +5,7 @@
   [
     brave
     cantata
-    vlc
+    celluloid
     gparted
     nemo
     lutris
