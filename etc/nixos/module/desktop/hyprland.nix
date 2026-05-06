@@ -12,12 +12,13 @@
   xdg.portal = {
    enable = true;
    extraPortals = with pkgs; [
-     xdg-desktop-portal-hyprland
-     lxqt.xdg-desktop-portal-lxqt
+     xdg-desktop-portal-gtk
    ];
  };
 
   environment.systemPackages = with pkgs; [
+    lxqt.lxqt-policykit
+    qt6.qtwayland
     rofi
     nwg-look
     libsForQt5.qt5ct
@@ -26,8 +27,6 @@
     libsForQt5.qtstyleplugin-kvantum
     cliphist
     wl-clipboard
-    lxqt.lxqt-policykit
-    lxqt.lxqt-notificationd
     awww
     waybar
     hyprlock

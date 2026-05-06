@@ -12,6 +12,8 @@
         ./module/timezone.nix
         ./module/swaps.nix
         ./module/os-name.nix
+	./module/openldap.nix
+	./module/nixpkg.nix
     ];
 
 }

@@ -4,10 +4,8 @@
   imports =
     [
         ./app/cli.nix
-        ./app/kde-apps.nix
-        ./app/other-apps.nix
+        ./app/apps.nix
         ./app/steam.nix
-        ./app/qemu.nix
     ];
 
 }

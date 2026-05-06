@@ -7,7 +7,9 @@
     cantata
     celluloid
     gparted
+    lxqt.lxqt-archiver
     lxqt.pcmanfm-qt
     lutris
+    neovide
   ];
 }
