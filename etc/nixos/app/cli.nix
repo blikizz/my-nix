@@ -10,6 +10,7 @@
     kitty
     fish
     f3
+    gnumake
     smartmontools
     bat
     duf
