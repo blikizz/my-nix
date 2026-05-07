@@ -3,6 +3,8 @@
 {
   nix = {
     settings = {
+      fallback = false;
+      substitute = true;
       substituters = [
         "https://cache.nixos.org/"
         "https://nix-community.cachix.org"
@@ -13,8 +15,4 @@
       ];
     };
   };
-
-  nix.settings.keep-outputs = true;
-  nix.settings.keep-derivations = true;
-
 }
