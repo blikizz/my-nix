@@ -13,13 +13,16 @@
    enable = true;
    extraPortals = with pkgs; [
      xdg-desktop-portal-gtk
+     xdg-desktop-portal-hyprland
    ];
  };
 
   environment.systemPackages = with pkgs; [
+    libxcb-cursor
     lxqt.lxqt-policykit
     lxqt.lxqt-sudo
-    qt6.qtwayland
+    libxcb-util
+    lxqt.lxqt-admin
     rofi
     nwg-look
     libsForQt5.qt5ct
