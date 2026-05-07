@@ -18,6 +18,7 @@
 
   environment.systemPackages = with pkgs; [
     lxqt.lxqt-policykit
+    lxqt.lxqt-sudo
     qt6.qtwayland
     rofi
     nwg-look
