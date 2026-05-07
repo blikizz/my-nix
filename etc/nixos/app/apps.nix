@@ -10,6 +10,5 @@
     lxqt.lxqt-archiver
     lxqt.pcmanfm-qt
     lutris
-    neovide
   ];
 }
